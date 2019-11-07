@@ -93,9 +93,6 @@ public class Main2Activity extends AppCompatActivity{
         btn_consultaDescripcion = (Button) findViewById(R.id.btn_consultaDescripcion);
         btn_eliminar = (Button) findViewById(R.id.btn_eliminar);
         btn_actualizar = (Button) findViewById(R.id.btn_actualizar);
-
-
-
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -105,7 +102,7 @@ public class Main2Activity extends AppCompatActivity{
 
 
         /******************************************************************/
-             //BLOQUE DE CÓDIGO PARA MOSTRAR DATOS DE LA BUSQUEDA//
+        //BLOQUE DE CÓDIGO PARA MOSTRAR DATOS DE LA BUSQUEDA//
         try {
             Intent intent = getIntent();
             Bundle bundle = intent.getExtras();
