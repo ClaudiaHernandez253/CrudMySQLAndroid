@@ -15,6 +15,9 @@ public class Config {
     public static final String urlConsultaAllArticulos = "http://mjgl.com.sv/mysqlcrud/buscarArticulos.php";            //Devuelve todos los registros de la tabla MySQL.
     */
 
+    public static final String urlLogin = "http://mjgl.com.sv/mysqlcrud/login.php";                                           //Hago que me devuelva el registro completo del usuario indicado
+
+
     //URL PARA ACCESO A BASE DE DATOS LOCAL MYSQL.
     //public static final String urlGuardar = "http://192.168.43.46/mysqlcrud/guardar.php";                               //Guardar datos DB.
     public static final String urlGuardar = "http://192.168.56.1/mysqlcrud/guardar.php";                               //Guardar datos DB.
