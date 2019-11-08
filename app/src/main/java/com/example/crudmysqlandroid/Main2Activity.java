@@ -79,7 +79,7 @@ public class Main2Activity extends AppCompatActivity{
         toolbar.setTitleMargin(0, 0, 0, 0);
         toolbar.setSubtitle("CRUD MySQL~2019");
         toolbar.setSubtitleTextColor(getResources().getColor(R.color.mycolor));
-        toolbar.setTitle("Prof. Gámez");
+        toolbar.setTitle("Claudia Hernandez");
         setSupportActionBar(toolbar);
 
         ///y esto para pantalla completa (oculta incluso la barra de estado)
@@ -401,19 +401,19 @@ public class Main2Activity extends AppCompatActivity{
 
 
     public String getSharedCodigo(Context context) {
-        SharedPreferences preferences = context.getSharedPreferences("profeGamez", MODE_PRIVATE);
+        SharedPreferences preferences = context.getSharedPreferences("claudia", MODE_PRIVATE);
         String codigo = preferences.getString("codigo","0");
         return codigo;   //return preferences.getString("tiempo", "Sin configurar.");
     }
 
     public String getSharedDescripcion(Context context) {
-        SharedPreferences preferences = context.getSharedPreferences("profeGamez", MODE_PRIVATE);
+        SharedPreferences preferences = context.getSharedPreferences("claudia", MODE_PRIVATE);
         String descripcion = preferences.getString("descripcion","Sin descripción");
         return descripcion;   //return preferences.getString("tiempo", "Sin configurar.");
     }
 
     public String getSharedPrecio(Context context) {
-        SharedPreferences preferences = context.getSharedPreferences("profeGamez", MODE_PRIVATE);
+        SharedPreferences preferences = context.getSharedPreferences("claudia", MODE_PRIVATE);
         String precio = preferences.getString("precio","0.0");
         return precio;   //return preferences.getString("tiempo", "Sin configurar.");
     }

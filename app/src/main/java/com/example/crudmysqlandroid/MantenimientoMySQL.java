@@ -552,7 +552,7 @@ public class MantenimientoMySQL {
 
 
     public void createfile(Context context, String codigo, String descripcion, String precio){
-        SharedPreferences preferences = context.getSharedPreferences("profeGamez", MODE_PRIVATE);
+        SharedPreferences preferences = context.getSharedPreferences("claudia", MODE_PRIVATE);
         //OBTENIENDO LA FECHA Y HORA ACTUAL DEL SISTEMA.
         DateFormat formatodate= new SimpleDateFormat("yyyy/MM/dd");
         String date= formatodate.format(new Date());
